@@ -51,5 +51,5 @@ The script performs the following steps:
 
 ## Author
 
-Chetan Kalpande
+Chetan Kalpande /
 QA Automation Engineer
