@@ -247,9 +247,6 @@ wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("react-burger-men
 
 ---
 
-```java
-driver.findElement(By.id("logout_sidebar_link")).click();
-```
 
 **Explanation:**
 - Clicks the Logout option.
