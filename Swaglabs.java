@@ -36,7 +36,8 @@ public class Swaglabs {
 		System.out.println(message.getText());
 		driver.findElement(By.id("generate-pdf-order")).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("react-burger-menu-btn"))).click();
-		driver.findElement(By.id("logout_sidebar_link")).click();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("logout_sidebar_link"))).click();
+
 
 	}
 
